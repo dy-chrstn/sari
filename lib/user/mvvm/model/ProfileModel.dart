@@ -1,10 +1,10 @@
-class AccountModel {
+class ProfileModel {
   Messages? messages;
   Response? response;
 
-  AccountModel({this.messages, this.response});
+  ProfileModel({this.messages, this.response});
 
-  AccountModel.fromJson(Map<String, dynamic> json) {
+  ProfileModel.fromJson(Map<String, dynamic> json) {
     messages = json['messages'] != null
         ? Messages.fromJson(json['messages'])
         : null;
