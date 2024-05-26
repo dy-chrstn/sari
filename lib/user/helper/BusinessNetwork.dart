@@ -33,7 +33,7 @@ class BusinessApiProvider {
     final token = await TokenApiProvider().getToken();
     try {
       final response = await http.post(
-        Uri.parse(baseUrl + '/business/register'),
+        Uri.parse('$baseUrl/business/register'),
         body: data,
         headers: {
           'Content-Type': 'application/json',
