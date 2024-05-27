@@ -12,5 +12,3 @@ String messagingSenderId = dotenv.env['messagingSenderId']!;
 String appId = dotenv.env['appId']!;
 String measurementId = dotenv.env['measurementId']!;
 
-
-
